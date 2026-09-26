@@ -222,10 +222,10 @@ flowchart TD
 │     → No intelligent mapping from existing skills → NSQF     │
 │       levels → right training program                        │
 │                                                              │
-│  6. 📊 NO OUTCOME TRACKING                                  │
-│     → Funds spent but impact unmeasured                      │
-│                                                              │
-│  7. 📈 SCALE PROBLEM                                        │
+│  6. 📊 NO OUTCOME TRACKING                                   │
+│     → Funds spent but impact unmeasured                       │
+│                                                               │
+│  7. 📈 SCALE PROBLEM                                          │
 │     → 200M+ people, 600K+ villages — can't scale manually   │
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
