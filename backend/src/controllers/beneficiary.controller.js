@@ -1,4 +1,5 @@
 import { db } from '../config/db.js';
+import { config } from '../config/env.js';
 import { beneficiaries, beneficiarySkills, callLogs } from '../db/schema.js';
 import { eq, ilike, and, sql, count } from 'drizzle-orm';
 import { sendSuccess, sendCreated, sendError } from '../utils/apiResponse.js';
@@ -255,3 +256,42 @@ export const checkPhone = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * GET /api/v1/beneficiary/:id/recommendations
+ * Proxies to Python recommendation engine microservice
+ */
+export const getBeneficiaryRecommendations = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+
+    const response = await fetch(`${config.RECOMMENDATION_ENGINE_URL}/api/v1/recommend/${id}`, {
+      method: 'GET',
+      headers: { 'Accept': 'application/json' },
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      return sendError(
+        res,
+        data.detail || 'Recommendation engine returned an error',
+        response.status,
+        data
+      );
+    }
+
+    return sendSuccess(res, data, 'Recommendations generated successfully');
+
+  } catch (error) {
+    if (error.code === 'ECONNREFUSED' || error.cause?.code === 'ECONNREFUSED') {
+      return sendError(
+        res,
+        'Recommendation engine microservice is unavailable. Ensure the Python FastAPI service is running on port 8000.',
+        503
+      );
+    }
+    next(error);
+  }
+};
+

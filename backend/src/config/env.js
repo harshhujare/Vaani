@@ -10,4 +10,5 @@ export const config = {
   LAYER1_API_KEY: process.env.LAYER1_API_KEY,
   DEVB_API_KEY: process.env.DEVB_API_KEY,
   FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:5173',
+  RECOMMENDATION_ENGINE_URL: process.env.RECOMMENDATION_ENGINE_URL || 'http://localhost:8000',
 };
