@@ -123,45 +123,38 @@ async def process_call_turn(state: CallState, user_text: str) -> dict:
     """
     start_time = time.time()
 
-    # 1. If at recommendation stage, fetch recommendations and prompt
+    # 1. Pre-extract fields from user text
+    if user_text and not user_text.startswith("("):
+        agent.apply_extraction(state, None, user_text=user_text)
+
+    # 2. Advance to recommendation stage if profile is complete
+    if state.ready_for_recommendation() and state.stage in (Stage.EDUCATION, Stage.PREFERENCES):
+        state.stage = Stage.RECOMMEND
+
+    # 3. If at recommendation stage, fetch recommendations
     if state.stage == Stage.RECOMMEND and not state.recommendation:
         b_id = await api_bridge.register_beneficiary(state)
         rec_data = await api_bridge.fetch_recommendations(b_id, state)
         state.recommendation = rec_data
 
-        # Feed recommendation context to LLM
-        rec_items = rec_data.get("recommendations", [])
-        if rec_items:
-            top_rec = rec_items[0]
-            rec_context = (
-                f"(सिस्टम नोट: आवेदक के लिए यह ट्रेनिंग प्रोग्राम मिला है: "
-                f"प्रोग्राम: {top_rec.get('program_name')}, "
-                f"संस्थान: {top_rec.get('provider_name')}, "
-                f"अवधि: {top_rec.get('duration_hours')} घंटे, "
-                f"विवरण: {top_rec.get('explanation_text')}। "
-                f"अब कॉलर को यह प्रोग्राम सरल हिंदी में बताओ और अंत में पूछो क्या वे रजिस्टर करना चाहते हैं?)"
-            )
-            user_text = f"{user_text}\n{rec_context}" if user_text else rec_context
-
-    # 2. Get LLM response
+    # 4. Get response (LLM with seamless Hindi dialogue fallback)
     raw_reply = await agent.get_response(state, user_text or "(call started)")
     spoken = agent.clean_spoken_text(raw_reply)
 
-    # 3. Update conversation history
+    # 5. Update conversation history
     if user_text:
         state.history.append({"role": "user", "content": user_text})
     state.history.append({"role": "assistant", "content": raw_reply})
 
-    # 4. Extract structured profile data and advance stage
+    # 6. Extract structured profile data and advance stage if complete
     data = agent.extract_json(raw_reply)
-    prev_stage = state.stage
     agent.apply_extraction(state, data, user_text=user_text)
 
     # Auto-advance from Greeting to Identity after opening turn
-    if prev_stage == Stage.GREETING and state.stage == Stage.GREETING:
+    if state.stage == Stage.GREETING:
         state.next_stage()
 
-    # Check if ready for recommendation
+    # Check if ready for recommendation again
     if state.ready_for_recommendation() and state.stage in (Stage.EDUCATION, Stage.PREFERENCES):
         state.stage = Stage.RECOMMEND
 

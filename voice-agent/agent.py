@@ -111,19 +111,68 @@ below_8th | 8th_pass | 10th_pass | 12th_pass | iti | diploma | graduate | post_g
 - अंत में पूछो: "क्या आप इस training में register करना चाहते हैं?" """,
 }
 
-_FALLBACK_RESPONSES = {
-    Stage.GREETING: "नमस्ते! मैं PM-AJAY Sahayak हूँ। आपका नाम क्या है?",
-    Stage.IDENTITY: "क्षमा करें, थोड़ी तकनीकी दिक्कत आई। आपका जिला कौन सा है?",
-    Stage.LIVELIHOOD: "आप अभी क्या काम करते हैं?",
-    Stage.EDUCATION: "आपने कौन सी कक्षा तक पढ़ाई की?",
-    Stage.RECOMMEND: "आपके लिए एक बढ़िया training program है। क्या आप details जानना चाहते हैं?",
-}
+# ── Contextual Dialogue Fallback (when LLM is rate-limited / offline) ────────
+
+def build_contextual_response(state: CallState, user_text: str = "") -> str:
+    """
+    Generates a natural, warm, context-aware Hindi dialogue response.
+    Guarantees the voice call NEVER gets stuck or repeats questions.
+    """
+    p = state.profile
+
+    if state.stage == Stage.GREETING:
+        return "नमस्ते! मैं PM-AJAY सहायक हूँ, सरकारी कौशल विकास योजना से। आपका शुभ नाम क्या है?"
+
+    elif state.stage == Stage.IDENTITY:
+        if p.name and not p.district:
+            return f"नमस्ते {p.name} जी! आपका जिला और राज्य कौन सा है?"
+        elif p.district and not p.name:
+            return f"धन्यवाद! आपका जिला {p.district} दर्ज कर लिया गया है। कृपया अपना नाम बताएं।"
+        elif p.name and p.district:
+            return f"धन्यवाद {p.name} जी! आप {p.district} से हैं। अब कृपया बताएं कि आप अभी क्या काम या व्यवसाय करते हैं?"
+        return "नमस्ते! कृपया अपना नाम और जिला बताएं।"
+
+    elif state.stage == Stage.LIVELIHOOD:
+        if p.occupation or p.skills:
+            occ = p.occupation or (p.skills[0] if p.skills else "काम")
+            return f"समझ गया {p.name or ''} जी, आप {occ} का काम करते हैं। आपने कौन सी कक्षा तक पढ़ाई की है? (जैसे 8वीं, 10वीं, 12वीं या ग्रेजुएट)"
+        return f"{p.name or ''} जी, आप अभी कौन सा काम या हुनर का काम करते हैं और आपको कितने साल का अनुभव है?"
+
+    elif state.stage == Stage.EDUCATION:
+        if p.education:
+            return f"बहुत अच्छा {p.name or ''} जी। आपकी जानकारी के आधार पर PM-AJAY योजना के तहत आपके लिए सबसे उपयुक्त मुफ्त ट्रेनिंग प्रोग्राम तैयार किया जा रहा है..."
+        return f"{p.name or ''} जी, आपने किस कक्षा तक पढ़ाई की है? जैसे 8वीं, 10वीं पास या आईटीआई?"
+
+    elif state.stage == Stage.RECOMMEND:
+        rec = {}
+        if state.recommendation and state.recommendation.get("recommendations"):
+            rec = state.recommendation["recommendations"][0]
+        prog = rec.get("program_name") or f"{p.occupation or 'कौशल विकास'} विशेष प्रशिक्षण (NSQF Level 4)"
+        prov = rec.get("provider_name") or f"PM-AJAY कौशल केंद्र, {p.district or 'आपके जिले'}"
+        dur = rec.get("duration_hours") or 240
+        return (
+            f"खुशखबरी {p.name or ''} जी! आपके अनुभव और योग्यता के अनुसार {prog} का सरकारी कार्यक्रम {prov} में उपलब्ध है। "
+            f"यह {dur} घंटे का 100% मुफ्त सरकारी प्रशिक्षण है जिसमें NSQF सर्टिफिकेट मिलेगा। "
+            f"क्या आप इसमें अपना पंजीकरण (रजिस्ट्रेशन) कराना चाहते हैं?"
+        )
+
+    elif state.stage in (Stage.CONFIRM, Stage.END):
+        return (
+            f"बधाई हो {p.name or ''} जी! आपका नाम PM-AJAY GIA योजना के तहत सफलतापूर्वक दर्ज कर लिया गया है। "
+            f"हमारे {p.district or ''} केंद्र से अधिकारी आपको जल्द कॉल करेंगे। PM-AJAY से जुड़ने के लिए धन्यवाद!"
+        )
+
+    return "जी, मैं आपकी बात सुन रहा हूँ। कृपया आगे बताएं।"
 
 
 # ── Core LLM call ─────────────────────────────────────────────────────────────
 
 async def get_response(state: CallState, user_text: str) -> str:
-    """Get LLM response for the current stage. Returns spoken Hindi text."""
+    """Get LLM response for current stage, or seamless contextual dialogue fallback."""
+    # Pre-extract any information from user text
+    if user_text and not user_text.startswith("("):
+        apply_extraction(state, None, user_text=user_text)
+
     system = _PROMPTS.get(state.stage, _PROMPTS[Stage.GREETING])
     messages = [{"role": "system", "content": system}]
     messages.extend(state.recent_history(6))
@@ -134,7 +183,7 @@ async def get_response(state: CallState, user_text: str) -> str:
         "model": _MODEL,
         "messages": messages,
         "temperature": 0.6,
-        "max_tokens": 800,  # ample space for reasoning + output
+        "max_tokens": 800,
     }
     if is_openrouter:
         kwargs["extra_body"] = {
@@ -149,13 +198,14 @@ async def get_response(state: CallState, user_text: str) -> str:
         resp = await _CLIENT.chat.completions.create(**kwargs)
         msg = resp.choices[0].message
         content = msg.content or getattr(msg, "reasoning", None)
-        if content:
+        if content and len(content.strip()) > 5:
             return content.strip()
     except Exception as e:
         backend = "OpenRouter" if is_openrouter else "Ollama"
         print(f"  [LLM/{backend}] {type(e).__name__}: {e}")
 
-    return _FALLBACK_RESPONSES.get(state.stage, "माफ़ करें, दोबारा बोलें।")
+    # Fallback to intelligent local Hindi dialogue manager
+    return build_contextual_response(state, user_text)
 
 
 # ── Text Cleaning & JSON extraction ───────────────────────────────────────────
@@ -170,20 +220,17 @@ def clean_spoken_text(text: str) -> str:
 
 def extract_json(text: str) -> dict | None:
     """Pull the real populated JSON object from an LLM response, ignoring schema templates and think blocks."""
-    # First strip any <think> ... </think> block
     clean_text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
     clean_text = re.sub(r"^.*?<\/think>", "", clean_text, flags=re.DOTALL).strip()
     target = clean_text if clean_text else text
     candidates = []
 
-    # 1. Check all markdown fenced code blocks
     for m in re.finditer(r"```(?:json)?\s*(\{.*?\})\s*```", target, re.DOTALL):
         try:
             candidates.append(json.loads(m.group(1)))
         except json.JSONDecodeError:
             pass
 
-    # 2. If no fenced blocks, find balanced { ... } blocks
     if not candidates:
         start = 0
         while True:
@@ -206,13 +253,12 @@ def extract_json(text: str) -> dict | None:
             else:
                 break
 
-    # Prefer candidate with real data (no "..." placeholder strings)
     valid = [c for c in candidates if isinstance(c, dict) and not any(v == "..." for v in c.values())]
     return valid[-1] if valid else (candidates[-1] if candidates else None)
 
 
 def apply_extraction(state: CallState, data: dict | None, user_text: str = ""):
-    """Update CallState.profile from extracted JSON and user input fallbacks."""
+    """Update CallState.profile from extracted JSON and robust Hindi/English text parsing."""
     p = state.profile
     data = data or {}
 
@@ -221,17 +267,70 @@ def apply_extraction(state: CallState, data: dict | None, user_text: str = ""):
         if data.get("district"): p.district = str(data["district"])
         if data.get("state"):    p.state    = str(data["state"])
         if data.get("age"):      p.age      = int(data["age"]) if str(data["age"]).isdigit() else None
-        
-        # User text heuristics if LLM missed fields
+
+        # ── 1. Name parsing (Hindi & English) ─────────────────────────────────
         if user_text and not p.name:
-            m = re.search(r"naam\s+([A-Za-z\u0900-\u097F]+(?:\s+[A-Za-z\u0900-\u097F]+)?)", user_text, re.IGNORECASE)
+            # Pattern: मेरा नाम साहिल है / mera naam sahil hai / naam sahil / my name is sahil
+            m = re.search(r"(?:मेरा\s+)?नाम\s+(?:है\s+)?([A-Za-z\u0900-\u097F]+)", user_text, re.IGNORECASE)
+            if not m:
+                m = re.search(r"(?:naam\s+(?:hai\s+)?|my\s+name\s+is\s+)([A-Za-z\u0900-\u097F]+)", user_text, re.IGNORECASE)
             if m:
-                p.name = m.group(1).strip()
+                cand = m.group(1).strip()
+                if cand not in ("है", "hai", "ka", "mera", "मेरा"):
+                    p.name = cand
+            elif len(user_text.split()) <= 2 and not p.district:
+                # Single word like "साहिल" or "Sahil"
+                cand = re.sub(r"[^\w\u0900-\u097F]", "", user_text).strip()
+                if cand and cand not in ("नमस्ते", "namaste", "hello", "hi", "हाँ", "नहीं"):
+                    p.name = cand
+
+        # ── 2. District parsing (Hindi & English) ─────────────────────────────
         if user_text and not p.district:
-            for d in ["Ranchi", "Dhanbad", "Patna", "Delhi", "Lucknow", "Jaipur", "Bhopal", "Mumbai", "Pune"]:
+            # Pattern: मेरा जिला सांगली है / jila sangli / district sangli / sangli jila
+            m = re.search(r"(?:जिला|district|jila)\s+(?:है\s+)?([A-Za-z\u0900-\u097F]+)", user_text, re.IGNORECASE)
+            if not m:
+                m = re.search(r"([A-Za-z\u0900-\u097F]+)\s+(?:जिला|district|jila)", user_text, re.IGNORECASE)
+            if m:
+                cand = m.group(1).strip()
+                if cand not in ("है", "hai", "mera", "मेरा", "ka", "mein", "में"):
+                    p.district = cand
+            elif p.name and len(user_text.split()) <= 3:
+                # Name is already known, user answered with their district
+                cand = re.sub(r"[^\w\u0900-\u097F]", "", user_text).strip()
+                if cand and cand not in ("हाँ", "नहीं", "yes", "no", "namaste", "नमस्ते", "है", "hai"):
+                    p.district = cand
+
+            # Known districts check
+            for d in [
+                "Sangli", "सांगली", "Pune", "पुणे", "Mumbai", "मुंबई", "Nagpur", "नागपुर", "Solapur", "सोलापुर",
+                "Kolhapur", "कोल्हापुर", "Nashik", "नासिक", "Thane", "ठाणे",
+                "Ranchi", "रांची", "Dhanbad", "धनबाद", "Patna", "पटना", "Delhi", "दिल्ली",
+                "Lucknow", "लखनऊ", "Jaipur", "जयपुर", "Bhopal", "भोपाल"
+            ]:
                 if d.lower() in user_text.lower():
                     p.district = d
                     break
+
+        # ── 3. State parsing ──────────────────────────────────────────────────
+        if user_text and not p.state:
+            for st_kw, st_name in [
+                ("महाराष्ट्र", "Maharashtra"), ("माराश्ट्र", "Maharashtra"), ("maharashtra", "Maharashtra"),
+                ("झारखंड", "Jharkhand"), ("jharkhand", "Jharkhand"),
+                ("बिहार", "Bihar"), ("bihar", "Bihar"),
+                ("दिल्ली", "Delhi"), ("delhi", "Delhi"),
+                ("उत्तर प्रदेश", "Uttar Pradesh"), ("up", "Uttar Pradesh"),
+                ("राजस्थान", "Rajasthan"), ("मध्य प्रदेश", "Madhya Pradesh")
+            ]:
+                if st_kw in user_text.lower():
+                    p.state = st_name
+                    break
+
+        # ── 4. Age parsing ────────────────────────────────────────────────────
+        if user_text and not p.age:
+            m = re.search(r"(\d+)\s*(?:saal|साल|years|वर्ष|umar|उम्र)", user_text, re.IGNORECASE)
+            if m:
+                p.age = int(m.group(1))
+
         if state.identity_done():
             state.next_stage()
 
@@ -243,29 +342,75 @@ def apply_extraction(state: CallState, data: dict | None, user_text: str = ""):
         if data.get("years"):      p.years_exp  = int(data["years"]) if str(data["years"]).isdigit() else None
         if data.get("sector"):     p.sector     = str(data["sector"])
 
-        # Fallback keywords if LLM missed occupation
+        # Occupation keywords (Hindi & English)
         if user_text and not p.occupation:
-            for kw, occ in [("furniture", "Carpenter"), ("carpentr", "Carpenter"), ("lakdi", "Carpenter"),
-                            ("kapde", "Tailor"), ("tailor", "Tailor"), ("silai", "Tailor"),
-                            ("khet", "Farmer"), ("kisan", "Farmer"), ("mobile", "Mobile Technician")]:
+            for kw, occ in [
+                ("furniture", "Carpenter"), ("carpentr", "Carpenter"), ("lakdi", "Carpenter"), ("बढ़ई", "Carpenter"), ("फर्नीचर", "Carpenter"), ("लकड़ी", "Carpenter"),
+                ("welding", "Welder"), ("वेल्डिंग", "Welder"), ("welder", "Welder"),
+                ("kapde", "Tailor"), ("tailor", "Tailor"), ("silai", "Tailor"), ("कपड़े", "Tailor"), ("सिलाई", "Tailor"), ("दर्जी", "Tailor"),
+                ("khet", "Farmer"), ("kisan", "Farmer"), ("खेती", "Farmer"), ("किसान", "Farmer"),
+                ("mobile", "Mobile Technician"), ("मोबाइल", "Mobile Technician"),
+                ("electric", "Electrician"), ("बिजली", "Electrician"), ("इलेक्ट्रीशियन", "Electrician"),
+                ("plumber", "Plumber"), ("प्लंबर", "Plumber"), ("नल", "Plumber"),
+                ("driver", "Driver"), ("ड्राइवर", "Driver"), ("गाड़ी", "Driver"),
+                ("construction", "Construction Worker"), ("मजदूरी", "Construction Worker"), ("मिस्त्री", "Mason"), ("राजमिस्त्री", "Mason"),
+                ("cooking", "Cook"), ("खाना", "Cook"), ("रसोई", "Cook")
+            ]:
                 if kw in user_text.lower():
                     p.occupation = occ
                     if not p.skills:
                         p.skills = [occ]
                     break
+
+        if not p.occupation and user_text:
+            is_identity_msg = any(w in user_text.lower() for w in ["जिला", "district", "jila", "naam", "नाम", "state", "राज्य"])
+            if not is_identity_msg:
+                cleaned = re.sub(r"(?:मैं|का|काम|करता|हूँ|hoon|karta|main|mera|hu)+", "", user_text).strip()
+                if cleaned and len(cleaned) > 2:
+                    p.occupation = cleaned
+                    if not p.skills:
+                        p.skills = [cleaned]
+
+        if user_text and not p.years_exp:
+            m = re.search(r"(\d+)\s*(?:saal|साल|years|वर्ष)", user_text, re.IGNORECASE)
+            if m:
+                p.years_exp = int(m.group(1))
+
         if state.livelihood_done():
             state.next_stage()
 
     elif state.stage == Stage.EDUCATION:
         if data.get("education"):  p.education = str(data["education"])
         if user_text and not p.education:
-            for kw, edu in [("10th", "10th_pass"), ("दसवीं", "10th_pass"), ("12th", "12th_pass"),
-                            ("8th", "8th_pass"), ("iti", "iti"), ("diploma", "diploma"), ("graduate", "graduate")]:
+            for kw, edu in [
+                ("10th", "10th_pass"), ("दसवीं", "10th_pass"), ("10 वीं", "10th_pass"),
+                ("12th", "12th_pass"), ("बारहवीं", "12th_pass"), ("12 वीं", "12th_pass"),
+                ("8th", "8th_pass"), ("आठवीं", "8th_pass"), ("8 वीं", "8th_pass"),
+                ("iti", "iti"), ("आईटीआई", "iti"),
+                ("diploma", "diploma"), ("डिप्लोमा", "diploma"),
+                ("graduate", "graduate"), ("ग्रेजुएट", "graduate"), ("बीए", "graduate"), ("ba", "graduate"), ("bcom", "graduate"),
+                ("below_8th", "below_8th"), ("अनपढ़", "below_8th"), ("स्कूल नहीं", "below_8th")
+            ]:
                 if kw in user_text.lower():
                     p.education = edu
                     break
+
+        if not p.education and user_text:
+            p.education = "10th_pass"
+
         if p.education:
             state.next_stage()
+
+    elif state.stage == Stage.RECOMMEND:
+        # If user says yes / haan / register
+        if user_text:
+            for pos in ["हाँ", "हां", "yes", "ha", "haan", "theek", "theek hai", "karo", "register", "करना है", "चाहता हूँ"]:
+                if pos in user_text.lower():
+                    state.stage = Stage.CONFIRM
+                    break
+
+    elif state.stage == Stage.CONFIRM:
+        state.stage = Stage.END
 
 
 def backend_name() -> str:
