@@ -78,7 +78,7 @@ async def register_beneficiary(state: CallState) -> str:
     headers = {"x-api-key": LAYER1_API_KEY}
 
     try:
-        async with httpx.AsyncClient(timeout=4.0) as client:
+        async with httpx.AsyncClient(timeout=1.5) as client:
             resp = await client.post(
                 f"{PLATFORM_API_URL}/api/v1/beneficiary/register",
                 json=payload,
@@ -103,7 +103,7 @@ async def fetch_recommendations(beneficiary_id: str, state: CallState) -> dict:
     Falls back to high-confidence tailored PM-AJAY programs if rec engine is unreachable.
     """
     try:
-        async with httpx.AsyncClient(timeout=4.0) as client:
+        async with httpx.AsyncClient(timeout=1.5) as client:
             resp = await client.get(f"{REC_ENGINE_URL}/api/v1/recommend/{beneficiary_id}")
             if resp.status_code == 200:
                 data = resp.json()
@@ -115,6 +115,8 @@ async def fetch_recommendations(beneficiary_id: str, state: CallState) -> dict:
     # Graceful fallback: tailored to user profile
     p = state.profile
     skill = (p.skills[0] if p.skills else p.occupation) or "सामान्य कौशल"
+    if len(skill) > 25:
+        skill = "कौशल विकास"
     district = p.district or "Ranchi"
 
     return {

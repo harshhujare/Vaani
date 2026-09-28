@@ -123,6 +123,10 @@ async def process_call_turn(state: CallState, user_text: str) -> dict:
     """
     start_time = time.time()
 
+    # 0. Auto-advance from Greeting to Identity if caller already spoke
+    if state.stage == Stage.GREETING and user_text and not user_text.startswith("("):
+        state.stage = Stage.IDENTITY
+
     # 1. Pre-extract fields from user text
     if user_text and not user_text.startswith("("):
         agent.apply_extraction(state, None, user_text=user_text)
@@ -131,7 +135,7 @@ async def process_call_turn(state: CallState, user_text: str) -> dict:
     if state.ready_for_recommendation() and state.stage in (Stage.EDUCATION, Stage.PREFERENCES):
         state.stage = Stage.RECOMMEND
 
-    # 3. If at recommendation stage, fetch recommendations
+    # 3. If at recommendation stage, fetch recommendations once
     if state.stage == Stage.RECOMMEND and not state.recommendation:
         b_id = await api_bridge.register_beneficiary(state)
         rec_data = await api_bridge.fetch_recommendations(b_id, state)
@@ -146,17 +150,19 @@ async def process_call_turn(state: CallState, user_text: str) -> dict:
         state.history.append({"role": "user", "content": user_text})
     state.history.append({"role": "assistant", "content": raw_reply})
 
-    # 6. Extract structured profile data and advance stage if complete
+    # 6. Extract structured profile data from LLM JSON only (if returned)
     data = agent.extract_json(raw_reply)
-    agent.apply_extraction(state, data, user_text=user_text)
+    if data:
+        agent.apply_extraction(state, data, user_text="")
 
     # Auto-advance from Greeting to Identity after opening turn
     if state.stage == Stage.GREETING:
-        state.next_stage()
+        state.stage = Stage.IDENTITY
 
-    # Check if ready for recommendation again
-    if state.ready_for_recommendation() and state.stage in (Stage.EDUCATION, Stage.PREFERENCES):
-        state.stage = Stage.RECOMMEND
+    # If call was confirmed, advance to END and log call
+    if state.stage == Stage.CONFIRM:
+        state.stage = Stage.END
+        asyncio.create_task(api_bridge.log_call(state))
 
     # 5. Synthesize TTS audio for the spoken portion
     audio_bytes = await synthesize_speech(spoken)
