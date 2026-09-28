@@ -30,7 +30,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from conversation_states import CallState, Stage
-from agent import get_response, extract_json, apply_extraction, backend_name
+from agent import get_response, extract_json, apply_extraction, backend_name, clean_spoken_text
 
 
 async def main():
@@ -45,7 +45,8 @@ async def main():
     # ── Opening greeting ──────────────────────────────────────────────────────
     print("[Stage: greeting]")
     greeting = await get_response(state, "(call started)")
-    print(f"🤖 {greeting}\n")
+    spoken_greeting = clean_spoken_text(greeting)
+    print(f"🤖 {spoken_greeting}\n")
     state.history.append({"role": "assistant", "content": greeting})
     state.next_stage()   # greeting → identity
 
@@ -75,20 +76,19 @@ async def main():
         state.history.append({"role": "user", "content": user})
         state.history.append({"role": "assistant", "content": reply})
 
-        # Strip JSON block before printing (it's internal, not spoken)
-        import re
-        spoken = re.sub(r"```json.*?```", "", reply, flags=re.DOTALL).strip()
+        # Strip JSON block & reasoning before printing
+        spoken = clean_spoken_text(reply)
         print(f"\n[Stage: {state.stage.value}]")
         print(f"🤖 {spoken}\n")
 
         # Extract structured data & advance stage if complete
         data = extract_json(reply)
+        prev_stage = state.stage
+        apply_extraction(state, data, user_text=user)
         if data:
-            prev_stage = state.stage
-            apply_extraction(state, data)
             print(f"  📋 Extracted: {data}")
-            if state.stage != prev_stage:
-                print(f"  ✅ Stage complete → {state.stage.value}\n")
+        if state.stage != prev_stage:
+            print(f"  ✅ Stage complete → {state.stage.value}\n")
 
     # ── Final summary ─────────────────────────────────────────────────────────
     p = state.profile

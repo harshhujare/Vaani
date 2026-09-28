@@ -29,7 +29,7 @@ def _make_client() -> tuple[AsyncOpenAI, str]:
                     "X-Title": "VaniSetu PM-AJAY Voice Agent",
                 },
             ),
-            "google/gemma-3-27b-it:free",
+            "openrouter/free",
         )
 
     # Ollama fallback — 100% local, no account, no internet at inference time
@@ -129,57 +129,141 @@ async def get_response(state: CallState, user_text: str) -> str:
     messages.extend(state.recent_history(6))
     messages.append({"role": "user", "content": user_text})
 
+    is_openrouter = "openrouter" in str(_CLIENT.base_url)
+    kwargs = {
+        "model": _MODEL,
+        "messages": messages,
+        "temperature": 0.6,
+        "max_tokens": 800,  # ample space for reasoning + output
+    }
+    if is_openrouter:
+        kwargs["extra_body"] = {
+            "models": [
+                "google/gemma-4-26b-a4b-it:free",
+                "google/gemma-4-31b-it:free",
+                "nvidia/nemotron-3-super-120b-a12b:free",
+            ]
+        }
+
     try:
-        resp = await _CLIENT.chat.completions.create(
-            model=_MODEL,
-            messages=messages,
-            temperature=0.6,
-            max_tokens=280,  # short = less TTS latency
-        )
-        return resp.choices[0].message.content or _FALLBACK_RESPONSES.get(state.stage, "")
+        resp = await _CLIENT.chat.completions.create(**kwargs)
+        msg = resp.choices[0].message
+        content = msg.content or getattr(msg, "reasoning", None)
+        if content:
+            return content.strip()
     except Exception as e:
-        backend = "OpenRouter" if "openrouter" in str(_CLIENT.base_url) else "Ollama"
+        backend = "OpenRouter" if is_openrouter else "Ollama"
         print(f"  [LLM/{backend}] {type(e).__name__}: {e}")
-        return _FALLBACK_RESPONSES.get(state.stage, "माफ़ करें, दोबारा बोलें।")
+
+    return _FALLBACK_RESPONSES.get(state.stage, "माफ़ करें, दोबारा बोलें।")
 
 
-# ── JSON extraction ───────────────────────────────────────────────────────────
+# ── Text Cleaning & JSON extraction ───────────────────────────────────────────
+
+def clean_spoken_text(text: str) -> str:
+    """Strip <think>...</think> and ```json...``` from text before sending to TTS or displaying."""
+    t = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+    t = re.sub(r"```(?:json)?.*?```", "", t, flags=re.DOTALL)
+    t = re.sub(r"^.*?<\/think>", "", t, flags=re.DOTALL)
+    return t.strip()
+
 
 def extract_json(text: str) -> dict | None:
-    """Pull the first JSON object from an LLM response."""
-    # Try fenced block first, then raw object
-    for pattern in (r"```json\s*(\{.*?\})\s*```", r"(\{[^{}]+\})"):
-        m = re.search(pattern, text, re.DOTALL)
-        if m:
-            try:
-                return json.loads(m.group(1))
-            except json.JSONDecodeError:
-                pass
-    return None
+    """Pull the real populated JSON object from an LLM response, ignoring schema templates and think blocks."""
+    # First strip any <think> ... </think> block
+    clean_text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+    clean_text = re.sub(r"^.*?<\/think>", "", clean_text, flags=re.DOTALL).strip()
+    target = clean_text if clean_text else text
+    candidates = []
+
+    # 1. Check all markdown fenced code blocks
+    for m in re.finditer(r"```(?:json)?\s*(\{.*?\})\s*```", target, re.DOTALL):
+        try:
+            candidates.append(json.loads(m.group(1)))
+        except json.JSONDecodeError:
+            pass
+
+    # 2. If no fenced blocks, find balanced { ... } blocks
+    if not candidates:
+        start = 0
+        while True:
+            s_idx = target.find("{", start)
+            if s_idx == -1:
+                break
+            depth = 0
+            for i in range(s_idx, len(target)):
+                if target[i] == "{":
+                    depth += 1
+                elif target[i] == "}":
+                    depth -= 1
+                    if depth == 0:
+                        try:
+                            candidates.append(json.loads(target[s_idx : i + 1]))
+                        except json.JSONDecodeError:
+                            pass
+                        start = i + 1
+                        break
+            else:
+                break
+
+    # Prefer candidate with real data (no "..." placeholder strings)
+    valid = [c for c in candidates if isinstance(c, dict) and not any(v == "..." for v in c.values())]
+    return valid[-1] if valid else (candidates[-1] if candidates else None)
 
 
-def apply_extraction(state: CallState, data: dict):
-    """Update CallState.profile from extracted JSON. Advances stage when complete."""
+def apply_extraction(state: CallState, data: dict | None, user_text: str = ""):
+    """Update CallState.profile from extracted JSON and user input fallbacks."""
     p = state.profile
+    data = data or {}
 
     if state.stage == Stage.IDENTITY:
-        if data.get("name"):     p.name     = data["name"]
-        if data.get("district"): p.district = data["district"]
-        if data.get("state"):    p.state    = data["state"]
-        if data.get("age"):      p.age      = data["age"]
+        if data.get("name"):     p.name     = str(data["name"])
+        if data.get("district"): p.district = str(data["district"])
+        if data.get("state"):    p.state    = str(data["state"])
+        if data.get("age"):      p.age      = int(data["age"]) if str(data["age"]).isdigit() else None
+        
+        # User text heuristics if LLM missed fields
+        if user_text and not p.name:
+            m = re.search(r"naam\s+([A-Za-z\u0900-\u097F]+(?:\s+[A-Za-z\u0900-\u097F]+)?)", user_text, re.IGNORECASE)
+            if m:
+                p.name = m.group(1).strip()
+        if user_text and not p.district:
+            for d in ["Ranchi", "Dhanbad", "Patna", "Delhi", "Lucknow", "Jaipur", "Bhopal", "Mumbai", "Pune"]:
+                if d.lower() in user_text.lower():
+                    p.district = d
+                    break
         if state.identity_done():
             state.next_stage()
 
     elif state.stage == Stage.LIVELIHOOD:
-        if data.get("occupation"): p.occupation = data["occupation"]
-        if data.get("skills"):     p.skills     = data["skills"]
-        if data.get("years"):      p.years_exp  = data["years"]
-        if data.get("sector"):     p.sector     = data["sector"]
+        if data.get("occupation"): p.occupation = str(data["occupation"])
+        if data.get("skills"):     p.skills     = list(data["skills"]) if isinstance(data["skills"], list) else [str(data["skills"])]
+        elif data.get("occupation") and not p.skills:
+            p.skills = [p.occupation]
+        if data.get("years"):      p.years_exp  = int(data["years"]) if str(data["years"]).isdigit() else None
+        if data.get("sector"):     p.sector     = str(data["sector"])
+
+        # Fallback keywords if LLM missed occupation
+        if user_text and not p.occupation:
+            for kw, occ in [("furniture", "Carpenter"), ("carpentr", "Carpenter"), ("lakdi", "Carpenter"),
+                            ("kapde", "Tailor"), ("tailor", "Tailor"), ("silai", "Tailor"),
+                            ("khet", "Farmer"), ("kisan", "Farmer"), ("mobile", "Mobile Technician")]:
+                if kw in user_text.lower():
+                    p.occupation = occ
+                    if not p.skills:
+                        p.skills = [occ]
+                    break
         if state.livelihood_done():
             state.next_stage()
 
     elif state.stage == Stage.EDUCATION:
-        if data.get("education"):  p.education = data["education"]
+        if data.get("education"):  p.education = str(data["education"])
+        if user_text and not p.education:
+            for kw, edu in [("10th", "10th_pass"), ("दसवीं", "10th_pass"), ("12th", "12th_pass"),
+                            ("8th", "8th_pass"), ("iti", "iti"), ("diploma", "diploma"), ("graduate", "graduate")]:
+                if kw in user_text.lower():
+                    p.education = edu
+                    break
         if p.education:
             state.next_stage()
 
@@ -187,3 +271,4 @@ def apply_extraction(state: CallState, data: dict):
 def backend_name() -> str:
     """Returns which LLM backend is active."""
     return "OpenRouter" if "openrouter" in str(_CLIENT.base_url) else f"Ollama ({_MODEL})"
+
