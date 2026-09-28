@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment — NEVER commit API keys
+.env
+
+# Whisper model cache (large, re-downloadable)
+# Uncomment if you want to exclude:
+# ~/.cache/huggingface/
+
+# Test audio outputs
+test_tts_output.mp3
+test_loop_output.mp3
+
+# Piper TTS models (large binaries)
+*.onnx
+*.onnx.json
