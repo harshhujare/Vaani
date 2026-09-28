@@ -1,0 +1,32 @@
+import axios from 'axios';
+
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001/api/v1';
+
+const client = axios.create({
+  baseURL: API_BASE,
+  headers: { 'Content-Type': 'application/json' },
+});
+
+// Attach JWT token to every request
+client.interceptors.request.use((config) => {
+  const token = localStorage.getItem('vanisetu_token');
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
+
+// Handle 401 globally — redirect to login
+client.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      localStorage.removeItem('vanisetu_token');
+      localStorage.removeItem('vanisetu_user');
+      window.location.href = '/login';
+    }
+    return Promise.reject(error);
+  }
+);
+
+export default client;

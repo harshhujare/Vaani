@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
+import rateLimit from 'express-rate-limit';
 import { config } from './config/env.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
@@ -15,13 +16,27 @@ import analyticsRoutes from './routes/analytics.routes.js';
 
 const app = express();
 
+// ── Rate Limiting ──
+const generalLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 200,
+  message: { success: false, message: 'Too many requests. Try again later.' },
+});
+
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 20,
+  message: { success: false, message: 'Too many auth attempts. Try again later.' },
+});
+
 // ── Middleware ──
 app.use(cors({
-  origin: config.FRONTEND_URL,
+  origin: [config.FRONTEND_URL, 'http://localhost:5173', 'http://localhost:3000'],
   credentials: true,
 }));
 app.use(express.json({ limit: '10mb' }));
 app.use(morgan('dev'));
+app.use('/api/', generalLimiter);
 
 // ── Health Check ──
 app.get('/health', (req, res) => {
@@ -34,7 +49,7 @@ app.get('/health', (req, res) => {
 });
 
 // ── API Routes ──
-app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/auth', authLimiter, authRoutes);
 app.use('/api/v1/beneficiary', beneficiaryRoutes);
 app.use('/api/v1/beneficiaries', beneficiaryRoutes);  // alias for list
 app.use('/api/v1/programs', programRoutes);

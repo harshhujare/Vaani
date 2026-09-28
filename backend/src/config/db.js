@@ -12,3 +12,4 @@ const sql = neon(config.DATABASE_URL);
 export const db = drizzle(sql, { schema });
 
 export { sql };
+
