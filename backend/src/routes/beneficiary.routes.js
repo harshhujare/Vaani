@@ -2,7 +2,7 @@ import { Router } from 'express';
 import {
   registerBeneficiary, listBeneficiaries, getBeneficiary,
   updateBeneficiary, getBeneficiarySkills, updateBeneficiaryStatus,
-  checkPhone
+  checkPhone, getBeneficiaryRecommendations
 } from '../controllers/beneficiary.controller.js';
 import { validate } from '../middleware/validate.js';
 import { authMiddleware } from '../middleware/auth.js';
@@ -29,6 +29,7 @@ router.get('/phone/:phone', authMiddleware, checkPhone);
 router.get('/:id', authMiddleware, getBeneficiary);
 router.put('/:id', authMiddleware, validate(updateBeneficiarySchema), updateBeneficiary);
 router.get('/:id/skills', authMiddleware, getBeneficiarySkills);
+router.get('/:id/recommendations', authMiddleware, getBeneficiaryRecommendations);
 router.patch('/:id/status', authMiddleware, validate(updateStatusSchema), updateBeneficiaryStatus);
 
 export default router;
