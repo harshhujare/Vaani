@@ -1,0 +1,4202 @@
+[
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_APPAR_02_01",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_APPAR_03_02",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_APPAR_04_03",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_APPAR_05_04",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_APPAR_EMB_03_05",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_APPAR_ALT_03_06",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_CONST_03_07",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_CONST_04_08",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_PLUMB_03_09",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_PLUMB_04_10",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_CONST_MASON_03_11",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_CONST_ELEC_03_12",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_AUTO_BIKE_03_13",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_AUTO_ELEC_04_14",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_AUTO_CAR_04_15",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_AUTO_HELPER_02_16",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_AUTO_EV_04_17",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_HEALTH_GDA_03_18",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_HEALTH_HHA_03_19",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_RANCHI_01_Q_HEALTH_EMT_04_20",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_RANCHI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_APPAR_02_21",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_APPAR_03_22",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_APPAR_04_23",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_APPAR_05_24",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_APPAR_EMB_03_25",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_APPAR_ALT_03_26",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_CONST_03_27",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_CONST_04_28",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_PLUMB_03_29",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_PLUMB_04_30",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_CONST_MASON_03_31",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_CONST_ELEC_03_32",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_AUTO_BIKE_03_33",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_AUTO_ELEC_04_34",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_AUTO_CAR_04_35",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_HEALTH_GERI_04_36",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_SOLAR_TECH_03_37",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_SOLAR_MAINT_04_38",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_SOLAR_SURV_04_39",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_SOLAR_PUMP_03_40",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_ELEC_MOBILE_03_41",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_ELEC_APP_03_42",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_ELEC_CCTV_03_43",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_ELEC_AC_04_44",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_SANGLI_01_Q_ELEC_SMART_04_45",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_SANGLI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_APPAR_02_46",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_APPAR_03_47",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_APPAR_04_48",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_APPAR_05_49",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_APPAR_EMB_03_50",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_APPAR_ALT_03_51",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_CONST_03_52",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_CONST_04_53",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_PLUMB_03_54",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_PLUMB_04_55",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_CONST_MASON_03_56",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_CONST_ELEC_03_57",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AUTO_BIKE_03_58",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AUTO_ELEC_04_59",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AUTO_CAR_04_60",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AUTO_HELPER_02_61",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AUTO_EV_04_62",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_HEALTH_GDA_03_63",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_HEALTH_HHA_03_64",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_HEALTH_EMT_04_65",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_HEALTH_GERI_04_66",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_SOLAR_TECH_03_67",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_SOLAR_MAINT_04_68",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_SOLAR_SURV_04_69",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_SOLAR_PUMP_03_70",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_ELEC_MOBILE_03_71",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_ELEC_APP_03_72",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_ELEC_CCTV_03_73",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_ELEC_AC_04_74",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_ELEC_SMART_04_75",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AGRI_ORG_03_76",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AGRI_DAIRY_03_77",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AGRI_IRRI_03_78",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_AGRI_PROC_04_79",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_BEAUTY_HAIR_03_80",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_BEAUTY_SKIN_03_81",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_BEAUTY_BRIDAL_04_82",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_BEAUTY_MGR_05_83",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_IT_DATA_03_84",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_IT_ACCOUNT_04_85",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_IT_LIT_02_86",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_IT_SUPPORT_04_87",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_RETAIL_ASSOC_03_88",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_LOG_WAREHOUSE_03_89",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_RETAIL_CASHIER_03_90",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_LOG_DISPATCH_04_91",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_FAB_WELD_03_92",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_FAB_CUT_03_93",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_FAB_TIG_04_94",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PUNE_01_Q_FAB_FIT_03_95",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_PUNE_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_APPAR_02_96",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_APPAR_03_97",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_APPAR_04_98",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_APPAR_05_99",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_APPAR_EMB_03_100",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_APPAR_ALT_03_101",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_CONST_03_102",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_CONST_04_103",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_PLUMB_03_104",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_PLUMB_04_105",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_CONST_MASON_03_106",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_CONST_ELEC_03_107",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AUTO_BIKE_03_108",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AUTO_ELEC_04_109",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AUTO_CAR_04_110",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AUTO_HELPER_02_111",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AUTO_EV_04_112",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_HEALTH_GDA_03_113",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_HEALTH_HHA_03_114",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_HEALTH_EMT_04_115",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_HEALTH_GERI_04_116",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_SOLAR_TECH_03_117",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_SOLAR_MAINT_04_118",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_SOLAR_SURV_04_119",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_SOLAR_PUMP_03_120",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_ELEC_MOBILE_03_121",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_ELEC_APP_03_122",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_ELEC_CCTV_03_123",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_ELEC_AC_04_124",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_ELEC_SMART_04_125",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AGRI_ORG_03_126",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AGRI_DAIRY_03_127",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AGRI_IRRI_03_128",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_AGRI_PROC_04_129",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_BEAUTY_HAIR_03_130",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_BEAUTY_SKIN_03_131",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_BEAUTY_BRIDAL_04_132",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_BEAUTY_MGR_05_133",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_IT_DATA_03_134",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_IT_ACCOUNT_04_135",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_IT_LIT_02_136",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_IT_SUPPORT_04_137",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_RETAIL_ASSOC_03_138",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_LOG_WAREHOUSE_03_139",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_RETAIL_CASHIER_03_140",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_LOG_DISPATCH_04_141",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_FAB_WELD_03_142",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_FAB_CUT_03_143",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_FAB_TIG_04_144",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_MUMBAI_01_Q_FAB_FIT_03_145",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_MUMBAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_APPAR_02_146",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_APPAR_03_147",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_APPAR_04_148",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_APPAR_05_149",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_APPAR_EMB_03_150",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_APPAR_ALT_03_151",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_CONST_03_152",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_CONST_04_153",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_PLUMB_03_154",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_PLUMB_04_155",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_CONST_MASON_03_156",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_CONST_ELEC_03_157",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_AUTO_BIKE_03_158",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_AUTO_ELEC_04_159",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_AUTO_CAR_04_160",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_AUTO_HELPER_02_161",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_AUTO_EV_04_162",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_HEALTH_GDA_03_163",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_HEALTH_HHA_03_164",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_HEALTH_EMT_04_165",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_HEALTH_GERI_04_166",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_SOLAR_TECH_03_167",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_SOLAR_MAINT_04_168",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_SOLAR_SURV_04_169",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_PATNA_01_Q_SOLAR_PUMP_03_170",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_PATNA_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_APPAR_02_171",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_APPAR_03_172",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_APPAR_04_173",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_APPAR_05_174",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_APPAR_EMB_03_175",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_APPAR_ALT_03_176",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_CONST_03_177",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_CONST_04_178",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_PLUMB_03_179",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_PLUMB_04_180",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_CONST_MASON_03_181",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_CONST_ELEC_03_182",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AUTO_BIKE_03_183",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AUTO_ELEC_04_184",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AUTO_CAR_04_185",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AUTO_HELPER_02_186",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AUTO_EV_04_187",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_HEALTH_GDA_03_188",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_HEALTH_HHA_03_189",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_HEALTH_EMT_04_190",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_HEALTH_GERI_04_191",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_SOLAR_TECH_03_192",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_SOLAR_MAINT_04_193",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_SOLAR_SURV_04_194",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_SOLAR_PUMP_03_195",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_ELEC_MOBILE_03_196",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_ELEC_APP_03_197",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_ELEC_CCTV_03_198",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_ELEC_AC_04_199",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_ELEC_SMART_04_200",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AGRI_ORG_03_201",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AGRI_DAIRY_03_202",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AGRI_IRRI_03_203",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_AGRI_PROC_04_204",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_BEAUTY_HAIR_03_205",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_BEAUTY_SKIN_03_206",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_BEAUTY_BRIDAL_04_207",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_BEAUTY_MGR_05_208",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_IT_DATA_03_209",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_IT_ACCOUNT_04_210",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_IT_LIT_02_211",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_IT_SUPPORT_04_212",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_RETAIL_ASSOC_03_213",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_LOG_WAREHOUSE_03_214",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_RETAIL_CASHIER_03_215",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_LOG_DISPATCH_04_216",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_FAB_WELD_03_217",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_FAB_CUT_03_218",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_FAB_TIG_04_219",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_LUCKNOW_01_Q_FAB_FIT_03_220",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_LUCKNOW_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_APPAR_02_221",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_APPAR_03_222",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_APPAR_04_223",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_APPAR_05_224",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_APPAR_EMB_03_225",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_APPAR_ALT_03_226",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_CONST_03_227",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_CONST_04_228",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_PLUMB_03_229",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_PLUMB_04_230",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_CONST_MASON_03_231",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_CONST_ELEC_03_232",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AUTO_BIKE_03_233",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AUTO_ELEC_04_234",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AUTO_CAR_04_235",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AUTO_HELPER_02_236",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AUTO_EV_04_237",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_HEALTH_GDA_03_238",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_HEALTH_HHA_03_239",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_HEALTH_EMT_04_240",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_HEALTH_GERI_04_241",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_SOLAR_TECH_03_242",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_SOLAR_MAINT_04_243",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_SOLAR_SURV_04_244",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_SOLAR_PUMP_03_245",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_ELEC_MOBILE_03_246",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_ELEC_APP_03_247",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_ELEC_CCTV_03_248",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_ELEC_AC_04_249",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_ELEC_SMART_04_250",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AGRI_ORG_03_251",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AGRI_DAIRY_03_252",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AGRI_IRRI_03_253",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_AGRI_PROC_04_254",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_BEAUTY_HAIR_03_255",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_BEAUTY_SKIN_03_256",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_BEAUTY_BRIDAL_04_257",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_BEAUTY_MGR_05_258",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_IT_DATA_03_259",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_IT_ACCOUNT_04_260",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_IT_LIT_02_261",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_IT_SUPPORT_04_262",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_RETAIL_ASSOC_03_263",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_LOG_WAREHOUSE_03_264",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_RETAIL_CASHIER_03_265",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_LOG_DISPATCH_04_266",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_FAB_WELD_03_267",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_FAB_CUT_03_268",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_FAB_TIG_04_269",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_JAIPUR_01_Q_FAB_FIT_03_270",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_JAIPUR_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_APPAR_02_271",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_APPAR_03_272",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_APPAR_04_273",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_APPAR_05_274",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_APPAR_EMB_03_275",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_APPAR_ALT_03_276",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_CONST_03_277",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_CONST_04_278",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_PLUMB_03_279",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_PLUMB_04_280",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_CONST_MASON_03_281",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_CONST_ELEC_03_282",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AUTO_BIKE_03_283",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AUTO_ELEC_04_284",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AUTO_CAR_04_285",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AUTO_HELPER_02_286",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AUTO_EV_04_287",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_HEALTH_GDA_03_288",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_HEALTH_HHA_03_289",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_HEALTH_EMT_04_290",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_HEALTH_GERI_04_291",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_SOLAR_TECH_03_292",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_SOLAR_MAINT_04_293",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_SOLAR_SURV_04_294",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_SOLAR_PUMP_03_295",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_ELEC_MOBILE_03_296",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_ELEC_APP_03_297",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_ELEC_CCTV_03_298",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_ELEC_AC_04_299",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_ELEC_SMART_04_300",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AGRI_ORG_03_301",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AGRI_DAIRY_03_302",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AGRI_IRRI_03_303",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_AGRI_PROC_04_304",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_BEAUTY_HAIR_03_305",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_BEAUTY_SKIN_03_306",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_BEAUTY_BRIDAL_04_307",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_BEAUTY_MGR_05_308",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_IT_DATA_03_309",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_IT_ACCOUNT_04_310",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_IT_LIT_02_311",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_IT_SUPPORT_04_312",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_RETAIL_ASSOC_03_313",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_LOG_WAREHOUSE_03_314",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_RETAIL_CASHIER_03_315",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_LOG_DISPATCH_04_316",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_FAB_WELD_03_317",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_FAB_CUT_03_318",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_FAB_TIG_04_319",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_BHOPAL_01_Q_FAB_FIT_03_320",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_BHOPAL_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_APPAR_02_321",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_APPAR_03_322",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_APPAR_04_323",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_APPAR_05_324",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_APPAR_EMB_03_325",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_APPAR_ALT_03_326",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_CONST_03_327",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_CONST_04_328",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_PLUMB_03_329",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_PLUMB_04_330",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_CONST_MASON_03_331",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_CONST_ELEC_03_332",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AUTO_BIKE_03_333",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AUTO_ELEC_04_334",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AUTO_CAR_04_335",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AUTO_HELPER_02_336",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AUTO_EV_04_337",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_HEALTH_GDA_03_338",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_HEALTH_HHA_03_339",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_HEALTH_EMT_04_340",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_HEALTH_GERI_04_341",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_SOLAR_TECH_03_342",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_SOLAR_MAINT_04_343",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_SOLAR_SURV_04_344",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_SOLAR_PUMP_03_345",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_ELEC_MOBILE_03_346",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_ELEC_APP_03_347",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_ELEC_CCTV_03_348",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_ELEC_AC_04_349",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_ELEC_SMART_04_350",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AGRI_ORG_03_351",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AGRI_DAIRY_03_352",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AGRI_IRRI_03_353",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_AGRI_PROC_04_354",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_BEAUTY_HAIR_03_355",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_BEAUTY_SKIN_03_356",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_BEAUTY_BRIDAL_04_357",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_BEAUTY_MGR_05_358",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_IT_DATA_03_359",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_IT_ACCOUNT_04_360",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_IT_LIT_02_361",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_IT_SUPPORT_04_362",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_RETAIL_ASSOC_03_363",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_LOG_WAREHOUSE_03_364",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_RETAIL_CASHIER_03_365",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_LOG_DISPATCH_04_366",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_FAB_WELD_03_367",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_FAB_CUT_03_368",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_FAB_TIG_04_369",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_HYD_01_Q_FAB_FIT_03_370",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_HYD_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_APPAR_02_371",
+    "qualification_id": "Q_APPAR_02",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_APPAR_03_372",
+    "qualification_id": "Q_APPAR_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_APPAR_04_373",
+    "qualification_id": "Q_APPAR_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_APPAR_05_374",
+    "qualification_id": "Q_APPAR_05",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_APPAR_EMB_03_375",
+    "qualification_id": "Q_APPAR_EMB_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_APPAR_ALT_03_376",
+    "qualification_id": "Q_APPAR_ALT_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_CONST_03_377",
+    "qualification_id": "Q_CONST_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_CONST_04_378",
+    "qualification_id": "Q_CONST_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_PLUMB_03_379",
+    "qualification_id": "Q_PLUMB_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_PLUMB_04_380",
+    "qualification_id": "Q_PLUMB_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_CONST_MASON_03_381",
+    "qualification_id": "Q_CONST_MASON_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_CONST_ELEC_03_382",
+    "qualification_id": "Q_CONST_ELEC_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AUTO_BIKE_03_383",
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AUTO_ELEC_04_384",
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AUTO_CAR_04_385",
+    "qualification_id": "Q_AUTO_CAR_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AUTO_HELPER_02_386",
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AUTO_EV_04_387",
+    "qualification_id": "Q_AUTO_EV_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_HEALTH_GDA_03_388",
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_HEALTH_HHA_03_389",
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_HEALTH_EMT_04_390",
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_HEALTH_GERI_04_391",
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_SOLAR_TECH_03_392",
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_SOLAR_MAINT_04_393",
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_SOLAR_SURV_04_394",
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_SOLAR_PUMP_03_395",
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_ELEC_MOBILE_03_396",
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_ELEC_APP_03_397",
+    "qualification_id": "Q_ELEC_APP_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_ELEC_CCTV_03_398",
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_ELEC_AC_04_399",
+    "qualification_id": "Q_ELEC_AC_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_ELEC_SMART_04_400",
+    "qualification_id": "Q_ELEC_SMART_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AGRI_ORG_03_401",
+    "qualification_id": "Q_AGRI_ORG_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AGRI_DAIRY_03_402",
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AGRI_IRRI_03_403",
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_AGRI_PROC_04_404",
+    "qualification_id": "Q_AGRI_PROC_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_BEAUTY_HAIR_03_405",
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_BEAUTY_SKIN_03_406",
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 13,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_BEAUTY_BRIDAL_04_407",
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 14,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_BEAUTY_MGR_05_408",
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 15,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_IT_DATA_03_409",
+    "qualification_id": "Q_IT_DATA_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 16,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_IT_ACCOUNT_04_410",
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 17,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_IT_LIT_02_411",
+    "qualification_id": "Q_IT_LIT_02",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 18,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_IT_SUPPORT_04_412",
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 19,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_RETAIL_ASSOC_03_413",
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 20,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_LOG_WAREHOUSE_03_414",
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 21,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_RETAIL_CASHIER_03_415",
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 22,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_LOG_DISPATCH_04_416",
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 23,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_FAB_WELD_03_417",
+    "qualification_id": "Q_FAB_WELD_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 24,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_FAB_CUT_03_418",
+    "qualification_id": "Q_FAB_CUT_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 25,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_FAB_TIG_04_419",
+    "qualification_id": "Q_FAB_TIG_04",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 26,
+    "status": "upcoming"
+  },
+  {
+    "batch_id": "BATCH_TC_CHENNAI_01_Q_FAB_FIT_03_420",
+    "qualification_id": "Q_FAB_FIT_03",
+    "center_id": "TC_CHENNAI_01",
+    "start_date": "2026-10-15",
+    "end_date": "2026-12-15",
+    "capacity": 30,
+    "seats_available": 12,
+    "status": "upcoming"
+  }
+]

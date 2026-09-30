@@ -1,0 +1,1279 @@
+[
+  {
+    "qualification_id": "Q_APPAR_02",
+    "title": "Sewing Machine Operator Assistant",
+    "sector": "Apparel",
+    "occupation": "Helper Stitcher",
+    "description": "Entry level stitching assistant course for garment manufacturing facilities.",
+    "required_skills": [
+      "SK_STITCHING"
+    ],
+    "optional_skills": [],
+    "min_education": "none",
+    "min_experience_years": 0,
+    "nsqf_level": 2,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_APPAR_03",
+    "title": "Basic Tailoring & Garment Stitching",
+    "sector": "Apparel",
+    "occupation": "Tailor",
+    "description": "Basic course covering hand and machine stitching, measurement, and simple garment construction.",
+    "required_skills": [
+      "SK_STITCHING"
+    ],
+    "optional_skills": [
+      "SK_GARMENT_ALTERATION"
+    ],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_SEW_BASIC"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_APPAR_04",
+    "title": "Advanced Tailoring & Garment Construction",
+    "sector": "Apparel",
+    "occupation": "Advanced Tailor",
+    "description": "Advanced garment construction including pattern making, industrial machine operation, and business skills.",
+    "required_skills": [
+      "SK_STITCHING",
+      "SK_PATTERN_MAKING",
+      "SK_INDUSTRIAL_MACHINE"
+    ],
+    "optional_skills": [
+      "SK_EMBROIDERY",
+      "SK_GARMENT_ALTERATION"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_SEW_INDUSTRIAL"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 4,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_APPAR_05",
+    "title": "Fashion Design & Garment Entrepreneurship",
+    "sector": "Apparel",
+    "occupation": "Fashion Designer",
+    "description": "Fashion design principles, advanced pattern making, boutique management, and e-commerce marketing.",
+    "required_skills": [
+      "SK_STITCHING",
+      "SK_PATTERN_MAKING",
+      "SK_EMBROIDERY"
+    ],
+    "optional_skills": [
+      "SK_INDUSTRIAL_MACHINE"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 3,
+    "nsqf_level": 5,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_SEW_INDUSTRIAL"
+    ],
+    "supports_rpl": false,
+    "rpl_min_experience_years": 0,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_APPAR_EMB_03",
+    "title": "Hand & Machine Embroidery Specialist",
+    "sector": "Apparel",
+    "occupation": "Embroiderer",
+    "description": "Traditional and contemporary embroidery styles, zari work, sequins, and artisan crafts.",
+    "required_skills": [
+      "SK_EMBROIDERY"
+    ],
+    "optional_skills": [
+      "SK_STITCHING"
+    ],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_APPAR_ALT_03",
+    "title": "Garment Alteration & Repair Technician",
+    "sector": "Apparel",
+    "occupation": "Alteration Master",
+    "description": "Specialized fitting, resizing, repair, zipper replacement, and bespoke alteration techniques.",
+    "required_skills": [
+      "SK_GARMENT_ALTERATION",
+      "SK_STITCHING"
+    ],
+    "optional_skills": [],
+    "min_education": "5th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_SEW_BASIC"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_CONST_03",
+    "title": "Carpentry — Furniture Making",
+    "sector": "Construction",
+    "occupation": "Carpenter",
+    "description": "Hands-on furniture making course covering joinery, finishing, wood selection, and shop practice.",
+    "required_skills": [
+      "SK_CARPENTRY"
+    ],
+    "optional_skills": [],
+    "min_education": "5th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_BASIC_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_CONST_04",
+    "title": "Advanced Carpentry & Wood Technology",
+    "sector": "Construction",
+    "occupation": "Master Carpenter",
+    "description": "Advanced joinery, modular kitchen manufacturing, veneering, wood finishing, and CAD drafting.",
+    "required_skills": [
+      "SK_CARPENTRY",
+      "SK_MASONRY"
+    ],
+    "optional_skills": [],
+    "min_education": "8th",
+    "min_experience_years": 3,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_POWER_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 5,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_PLUMB_03",
+    "title": "Plumbing & Sanitary Installation",
+    "sector": "Construction",
+    "occupation": "Plumber",
+    "description": "Water supply piping, drainage systems, sanitary fixture fitting, and leak troubleshooting.",
+    "required_skills": [
+      "SK_PLUMBING"
+    ],
+    "optional_skills": [],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_PLUMB_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_PLUMB_04",
+    "title": "Master Plumber & Pipefitting Supervisor",
+    "sector": "Construction",
+    "occupation": "Plumbing Supervisor",
+    "description": "Commercial piping, pump installations, rainwater harvesting systems, and blueprint interpretation.",
+    "required_skills": [
+      "SK_PLUMBING",
+      "SK_MASONRY"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 3,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_PLUMB_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 4,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_CONST_MASON_03",
+    "title": "General Masonry & Plastering",
+    "sector": "Construction",
+    "occupation": "Mason",
+    "description": "Brick and stone masonry, cement mortar mixing, wall plastering, and foundation construction.",
+    "required_skills": [
+      "SK_MASONRY"
+    ],
+    "optional_skills": [],
+    "min_education": "none",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_BASIC_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_CONST_ELEC_03",
+    "title": "Domestic Electrician & House Wiring",
+    "sector": "Construction",
+    "occupation": "Electrician",
+    "description": "Single-phase wiring, conduit laying, distribution board assembly, earthing, and electrical safety.",
+    "required_skills": [
+      "SK_ELECTRICAL_WIRING"
+    ],
+    "optional_skills": [
+      "SK_PLUMBING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_ELEC_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AUTO_BIKE_03",
+    "title": "Two Wheeler Service Technician",
+    "sector": "Automotive",
+    "occupation": "Bike Mechanic",
+    "description": "Two-wheeler engine overhaul, carburetor/FI tuning, brake servicing, and electrical maintenance.",
+    "required_skills": [
+      "SK_TWO_WHEELER_REPAIR"
+    ],
+    "optional_skills": [
+      "SK_AUTO_ELECTRICAL"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_AUTO_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AUTO_ELEC_04",
+    "title": "Automotive Electrical & Electronic Diagnostics",
+    "sector": "Automotive",
+    "occupation": "Auto Electrician",
+    "description": "Vehicle wiring harness troubleshooting, ECU scanning, battery management, and starter motor servicing.",
+    "required_skills": [
+      "SK_AUTO_ELECTRICAL",
+      "SK_TWO_WHEELER_REPAIR"
+    ],
+    "optional_skills": [
+      "SK_FOUR_WHEELER_SERVICE"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_ELEC_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 4,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AUTO_CAR_04",
+    "title": "Four Wheeler Light Commercial Vehicle Technician",
+    "sector": "Automotive",
+    "occupation": "Car Mechanic",
+    "description": "Four-wheeler engine overhaul, transmission maintenance, suspension adjustment, and periodic servicing.",
+    "required_skills": [
+      "SK_FOUR_WHEELER_SERVICE"
+    ],
+    "optional_skills": [
+      "SK_AUTO_ELECTRICAL"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_AUTO_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 4,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AUTO_HELPER_02",
+    "title": "Automotive Workshop Assistant",
+    "sector": "Automotive",
+    "occupation": "Garage Assistant",
+    "description": "Assisting in oil changes, tire replacement, washing, and shop tool maintenance.",
+    "required_skills": [
+      "SK_TWO_WHEELER_REPAIR"
+    ],
+    "optional_skills": [],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 2,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AUTO_EV_04",
+    "title": "Electric Vehicle (EV) Assembly & Service Technician",
+    "sector": "Automotive",
+    "occupation": "EV Technician",
+    "description": "EV battery diagnostics, BLDC motor controllers, regenerative braking, and charging stations.",
+    "required_skills": [
+      "SK_AUTO_ELECTRICAL",
+      "SK_TWO_WHEELER_REPAIR"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 1,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": false,
+    "rpl_min_experience_years": 0,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_HEALTH_GDA_03",
+    "title": "General Duty Assistant (GDA)",
+    "sector": "Healthcare",
+    "occupation": "Nursing Assistant",
+    "description": "Hospital patient assistance, vital signs monitoring, hygiene care, and bedside patient support.",
+    "required_skills": [
+      "SK_PATIENT_CARE"
+    ],
+    "optional_skills": [
+      "SK_FIRST_AID"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_HEALTH_HHA_03",
+    "title": "Home Health Aide & Elderly Attendant",
+    "sector": "Healthcare",
+    "occupation": "Home Caregiver",
+    "description": "Personalized home care for elderly and convalescent individuals, medication scheduling, and mobility aid.",
+    "required_skills": [
+      "SK_ELDERLY_CARE",
+      "SK_PATIENT_CARE"
+    ],
+    "optional_skills": [
+      "SK_FIRST_AID"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_HEALTH_EMT_04",
+    "title": "Emergency Medical Technician Basic",
+    "sector": "Healthcare",
+    "occupation": "Ambulance Attendant",
+    "description": "Pre-hospital trauma care, airway management, CPR, patient transport, and emergency triage.",
+    "required_skills": [
+      "SK_FIRST_AID",
+      "SK_PATIENT_CARE"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 1,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_HEALTH_GERI_04",
+    "title": "Geriatric Care Specialist",
+    "sector": "Healthcare",
+    "occupation": "Senior Care Specialist",
+    "description": "Advanced rehabilitation, dementia care, physical therapy assistance, and psycho-social support.",
+    "required_skills": [
+      "SK_ELDERLY_CARE"
+    ],
+    "optional_skills": [
+      "SK_PATIENT_CARE"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_SOLAR_TECH_03",
+    "title": "Suryamitra — Solar PV Installer",
+    "sector": "Renewable Energy",
+    "occupation": "Solar Installer",
+    "description": "Rooftop and ground-mount solar panel installation, structural mounting, and DC wiring.",
+    "required_skills": [
+      "SK_SOLAR_INSTALLATION"
+    ],
+    "optional_skills": [
+      "SK_ELECTRICAL_WIRING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_SOLAR_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_SOLAR_MAINT_04",
+    "title": "Solar O&M Supervisor & Inverter Technician",
+    "sector": "Renewable Energy",
+    "occupation": "Solar Maintenance Tech",
+    "description": "Solar inverter diagnostics, panel efficiency testing, preventative maintenance, and grid integration.",
+    "required_skills": [
+      "SK_SOLAR_MAINTENANCE",
+      "SK_SOLAR_INSTALLATION"
+    ],
+    "optional_skills": [
+      "SK_ELECTRICAL_WIRING"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 1,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_SOLAR_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_SOLAR_SURV_04",
+    "title": "Solar Rooftop Site Assessor & Designer",
+    "sector": "Renewable Energy",
+    "occupation": "Site Surveyor",
+    "description": "Shadow analysis, roof structural evaluation, solar capacity estimating, and customer quotation.",
+    "required_skills": [
+      "SK_SOLAR_INSTALLATION"
+    ],
+    "optional_skills": [
+      "SK_DIGITAL_LITERACY"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": false,
+    "rpl_min_experience_years": 0,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_SOLAR_PUMP_03",
+    "title": "Solar Agricultural Water Pump Installer",
+    "sector": "Renewable Energy",
+    "occupation": "Pump Installer",
+    "description": "Installation and servicing of solar-powered surface and submersible agricultural water pump sets.",
+    "required_skills": [
+      "SK_SOLAR_INSTALLATION",
+      "SK_PLUMBING"
+    ],
+    "optional_skills": [],
+    "min_education": "8th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_SOLAR_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_ELEC_MOBILE_03",
+    "title": "Mobile Phone Hardware Repair Technician",
+    "sector": "Electronics",
+    "occupation": "Mobile Technician",
+    "description": "Mobile PCB soldering, display panel replacement, charging port repair, and hardware troubleshooting.",
+    "required_skills": [
+      "SK_MOBILE_REPAIR"
+    ],
+    "optional_skills": [],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_MOBILE_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_ELEC_APP_03",
+    "title": "Home Appliance Service Technician",
+    "sector": "Electronics",
+    "occupation": "Appliance Tech",
+    "description": "Repair and installation of washing machines, microwave ovens, water purifiers, and mixers.",
+    "required_skills": [
+      "SK_APPLIANCE_REPAIR"
+    ],
+    "optional_skills": [
+      "SK_ELECTRICAL_WIRING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_ELEC_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_ELEC_CCTV_03",
+    "title": "CCTV Camera & Security System Technician",
+    "sector": "Electronics",
+    "occupation": "Security Tech",
+    "description": "IP and analog CCTV installation, DVR/NVR configuration, biometric attendance devices, and cabling.",
+    "required_skills": [
+      "SK_CCTV_INSTALLATION"
+    ],
+    "optional_skills": [
+      "SK_ELECTRICAL_WIRING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_ELEC_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_ELEC_AC_04",
+    "title": "HVAC & Refrigeration Technician",
+    "sector": "Electronics",
+    "occupation": "AC Mechanic",
+    "description": "Split and window AC installation, compressor maintenance, gas charging, and refrigeration cycle repair.",
+    "required_skills": [
+      "SK_APPLIANCE_REPAIR",
+      "SK_ELECTRICAL_WIRING"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_HVAC_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_ELEC_SMART_04",
+    "title": "Smartphone & Tablet Motherboard Specialist",
+    "sector": "Electronics",
+    "occupation": "Senior Mobile Tech",
+    "description": "Micro-soldering, SMD component reballing, schematics reading, and water damage board recovery.",
+    "required_skills": [
+      "SK_MOBILE_REPAIR"
+    ],
+    "optional_skills": [
+      "SK_DIGITAL_LITERACY"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_MOBILE_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 4,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AGRI_ORG_03",
+    "title": "Organic Farmer & Bio-Fertilizer Producer",
+    "sector": "Agriculture",
+    "occupation": "Organic Farmer",
+    "description": "Crop rotation, natural pest management, vermicompost production, and organic certification standards.",
+    "required_skills": [
+      "SK_ORGANIC_FARMING"
+    ],
+    "optional_skills": [
+      "SK_DRIP_IRRIGATION"
+    ],
+    "min_education": "5th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AGRI_DAIRY_03",
+    "title": "Dairy Farm Operator & Livestock Attendant",
+    "sector": "Agriculture",
+    "occupation": "Dairy Farmer",
+    "description": "Milking hygiene, cattle nutrition, animal health management, and dairy cold chain transport.",
+    "required_skills": [
+      "SK_DAIRY_FARMING"
+    ],
+    "optional_skills": [],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AGRI_IRRI_03",
+    "title": "Micro-Irrigation & Drip System Installer",
+    "sector": "Agriculture",
+    "occupation": "Irrigation Tech",
+    "description": "Drip and sprinkler network planning, emitter maintenance, filtration cleaning, and soil moisture sensors.",
+    "required_skills": [
+      "SK_DRIP_IRRIGATION",
+      "SK_PLUMBING"
+    ],
+    "optional_skills": [],
+    "min_education": "8th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_PLUMB_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_AGRI_PROC_04",
+    "title": "Food Processing & Agricultural Value Addition",
+    "sector": "Agriculture",
+    "occupation": "Food Processor",
+    "description": "Drying, pulp packaging, spice grinding, packaging compliance, and FSSAI hygiene guidelines.",
+    "required_skills": [
+      "SK_ORGANIC_FARMING"
+    ],
+    "optional_skills": [],
+    "min_education": "8th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_BEAUTY_HAIR_03",
+    "title": "Assistant Hair Stylist & Barber",
+    "sector": "Beauty",
+    "occupation": "Hair Stylist",
+    "description": "Hair cutting techniques, hair shampooing, styling, head massage, and salon sanitation.",
+    "required_skills": [
+      "SK_HAIR_STYLING"
+    ],
+    "optional_skills": [
+      "SK_SKIN_CARE"
+    ],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_SALON_BASIC"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_BEAUTY_SKIN_03",
+    "title": "Beauty Therapist & Skin Care Consultant",
+    "sector": "Beauty",
+    "occupation": "Beauty Therapist",
+    "description": "Skin analysis, facial therapies, waxing, threading, manicure, and pedicure services.",
+    "required_skills": [
+      "SK_SKIN_CARE"
+    ],
+    "optional_skills": [
+      "SK_HAIR_STYLING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_SALON_BASIC"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_BEAUTY_BRIDAL_04",
+    "title": "Bridal Make-up Artist & Mehendi Specialist",
+    "sector": "Beauty",
+    "occupation": "Makeup Artist",
+    "description": "HD and airbrush makeup, traditional bridal draping, intricate mehendi artistry, and client consultation.",
+    "required_skills": [
+      "SK_BRIDAL_MAKEUP",
+      "SK_SKIN_CARE"
+    ],
+    "optional_skills": [
+      "SK_HAIR_STYLING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_MAKEUP_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_BEAUTY_MGR_05",
+    "title": "Salon & Spa Management Entrepreneur",
+    "sector": "Beauty",
+    "occupation": "Salon Owner",
+    "description": "Spa therapies, luxury hair treatment, staff management, inventory control, and salon accounting.",
+    "required_skills": [
+      "SK_SKIN_CARE",
+      "SK_HAIR_STYLING",
+      "SK_BRIDAL_MAKEUP"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 3,
+    "nsqf_level": 5,
+    "employment_types": [
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_SALON_BASIC"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": false,
+    "rpl_min_experience_years": 0,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_IT_DATA_03",
+    "title": "Domestic Data Entry Operator",
+    "sector": "IT-ITeS",
+    "occupation": "Data Operator",
+    "description": "Speed keyboarding in English/Hindi, spreadsheet data management, document scanning, and data accuracy.",
+    "required_skills": [
+      "SK_DATA_ENTRY",
+      "SK_DIGITAL_LITERACY"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_COMPUTER"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_IT_ACCOUNT_04",
+    "title": "Junior Accounts Executive & GST Assistant",
+    "sector": "IT-ITeS",
+    "occupation": "Accountant",
+    "description": "Tally Prime accounting, GST invoice preparation, bank reconciliation, and cash ledger maintenance.",
+    "required_skills": [
+      "SK_ACCOUNTING_TALLY",
+      "SK_DIGITAL_LITERACY"
+    ],
+    "optional_skills": [
+      "SK_DATA_ENTRY"
+    ],
+    "min_education": "12th",
+    "min_experience_years": 1,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_COMPUTER"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_IT_LIT_02",
+    "title": "Digital Citizen & Citizen Services Facilitator",
+    "sector": "IT-ITeS",
+    "occupation": "CSC Operator",
+    "description": "Accessing government welfare portals, digital banking, online ticket booking, and identity document forms.",
+    "required_skills": [
+      "SK_DIGITAL_LITERACY"
+    ],
+    "optional_skills": [
+      "SK_DATA_ENTRY"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 2,
+    "employment_types": [
+      "self_employment",
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_COMPUTER"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_IT_SUPPORT_04",
+    "title": "IT Helpdesk & Desktop Support Technician",
+    "sector": "IT-ITeS",
+    "occupation": "Support Tech",
+    "description": "Operating system installation, network cabling, printer troubleshooting, and remote client desktop support.",
+    "required_skills": [
+      "SK_DIGITAL_LITERACY",
+      "SK_DATA_ENTRY"
+    ],
+    "optional_skills": [],
+    "min_education": "12th",
+    "min_experience_years": 1,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [
+      "AST_COMPUTER"
+    ],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_RETAIL_ASSOC_03",
+    "title": "Retail Store Sales Associate",
+    "sector": "Retail",
+    "occupation": "Sales Associate",
+    "description": "Customer greeting, product display merchandising, POS barcode scanning, and inventory counting.",
+    "required_skills": [
+      "SK_RETAIL_SALES"
+    ],
+    "optional_skills": [
+      "SK_DIGITAL_LITERACY"
+    ],
+    "min_education": "10th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_LOG_WAREHOUSE_03",
+    "title": "Warehouse Packaging & Inventory Handler",
+    "sector": "Logistics",
+    "occupation": "Warehouse Handler",
+    "description": "Order picking, secure carton packing, pallet stacking, barcode labelling, and safe loading.",
+    "required_skills": [
+      "SK_WAREHOUSE_PACKING"
+    ],
+    "optional_skills": [
+      "SK_RETAIL_SALES"
+    ],
+    "min_education": "5th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_RETAIL_CASHIER_03",
+    "title": "Retail Cashier & Billing Assistant",
+    "sector": "Retail",
+    "occupation": "Cashier",
+    "description": "Point of Sale (POS) operations, cash drawer reconciliation, card/UPI terminal handling, and receipt print.",
+    "required_skills": [
+      "SK_RETAIL_SALES",
+      "SK_DIGITAL_LITERACY"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 1,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_LOG_DISPATCH_04",
+    "title": "Logistics Dispatcher & Inventory Supervisor",
+    "sector": "Logistics",
+    "occupation": "Inventory Supervisor",
+    "description": "Fleet dispatch coordination, consignment tracking, warehouse inventory audit, and manifest generation.",
+    "required_skills": [
+      "SK_WAREHOUSE_PACKING",
+      "SK_DIGITAL_LITERACY"
+    ],
+    "optional_skills": [],
+    "min_education": "12th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 3,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_FAB_WELD_03",
+    "title": "Manual Metal Arc Welder",
+    "sector": "Capital Goods",
+    "occupation": "Welder",
+    "description": "SMAW welding on mild steel joints, welding safety, electrode selection, and weld inspection.",
+    "required_skills": [
+      "SK_WELDING"
+    ],
+    "optional_skills": [
+      "SK_GAS_CUTTING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 0,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_WELD_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_FAB_CUT_03",
+    "title": "Gas Cutter & Metal Fabricator",
+    "sector": "Capital Goods",
+    "occupation": "Fabricator",
+    "description": "Oxy-fuel gas cutting of steel plates, bevelling, grinder finishing, and structural steel assembly.",
+    "required_skills": [
+      "SK_GAS_CUTTING"
+    ],
+    "optional_skills": [
+      "SK_WELDING"
+    ],
+    "min_education": "8th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment",
+      "self_employment"
+    ],
+    "required_assets": [
+      "AST_WELD_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_FAB_TIG_04",
+    "title": "TIG & MIG Welding Specialist",
+    "sector": "Capital Goods",
+    "occupation": "Senior Welder",
+    "description": "Argon gas tungsten arc welding on stainless steel and aluminum, pressure vessel joints, and defect repair.",
+    "required_skills": [
+      "SK_WELDING",
+      "SK_GAS_CUTTING"
+    ],
+    "optional_skills": [],
+    "min_education": "10th",
+    "min_experience_years": 2,
+    "nsqf_level": 4,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_WELD_KIT"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 4,
+    "is_active": true
+  },
+  {
+    "qualification_id": "Q_FAB_FIT_03",
+    "title": "Mechanical Assembly Fitter",
+    "sector": "Capital Goods",
+    "occupation": "Fitter",
+    "description": "Bench fitting, filing, drilling, tapping, reaming, and precision alignment of machine assemblies.",
+    "required_skills": [
+      "SK_GAS_CUTTING",
+      "SK_WELDING"
+    ],
+    "optional_skills": [],
+    "min_education": "8th",
+    "min_experience_years": 1,
+    "nsqf_level": 3,
+    "employment_types": [
+      "wage_employment"
+    ],
+    "required_assets": [
+      "AST_BASIC_TOOLS"
+    ],
+    "preferred_assets": [],
+    "supports_rpl": true,
+    "rpl_min_experience_years": 2,
+    "is_active": true
+  }
+]

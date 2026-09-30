@@ -1,0 +1,394 @@
+[
+  {
+    "skill_id": "SK_STITCHING",
+    "name": "Stitching",
+    "sector": "Apparel",
+    "aliases": [
+      "stitching",
+      "silai",
+      "सिलाई",
+      "कपडे शिवणे",
+      "tailoring",
+      "dress making",
+      "kapde shivne"
+    ]
+  },
+  {
+    "skill_id": "SK_PATTERN_MAKING",
+    "name": "Pattern Making",
+    "sector": "Apparel",
+    "aliases": [
+      "pattern making",
+      "pattern cutting",
+      "naap lena",
+      "पैटर्न मेकिंग",
+      "नमुना बनवणे"
+    ]
+  },
+  {
+    "skill_id": "SK_GARMENT_ALTERATION",
+    "name": "Garment Alteration",
+    "sector": "Apparel",
+    "aliases": [
+      "alteration",
+      "fitting",
+      "kapde sudharna",
+      "garment repair",
+      "कपडे सुधारणे"
+    ]
+  },
+  {
+    "skill_id": "SK_EMBROIDERY",
+    "name": "Embroidery",
+    "sector": "Apparel",
+    "aliases": [
+      "embroidery",
+      "kashida",
+      "कढाई",
+      "भरतकाम",
+      "zari work",
+      "chikankari"
+    ]
+  },
+  {
+    "skill_id": "SK_INDUSTRIAL_MACHINE",
+    "name": "Industrial Sewing Machine Operation",
+    "sector": "Apparel",
+    "aliases": [
+      "industrial machine",
+      "power machine",
+      "motor silai",
+      "ओवरलॉक"
+    ]
+  },
+  {
+    "skill_id": "SK_CARPENTRY",
+    "name": "Carpentry",
+    "sector": "Construction",
+    "aliases": [
+      "carpentry",
+      "wood work",
+      "woodwork",
+      "lakdi ka kaam",
+      "लकड़ी का काम",
+      "सुतारकाम",
+      "furniture assembly"
+    ]
+  },
+  {
+    "skill_id": "SK_PLUMBING",
+    "name": "Plumbing",
+    "sector": "Construction",
+    "aliases": [
+      "plumbing",
+      "pipe fitting",
+      "plumber ka kaam",
+      "प्लम्बिंग",
+      "नलकारकाम",
+      "pipe repair"
+    ]
+  },
+  {
+    "skill_id": "SK_MASONRY",
+    "name": "Masonry",
+    "sector": "Construction",
+    "aliases": [
+      "masonry",
+      "bricklaying",
+      "chunai",
+      "राजमिस्त्री",
+      "गवंडीकाम",
+      "plastering"
+    ]
+  },
+  {
+    "skill_id": "SK_ELECTRICAL_WIRING",
+    "name": "Electrical Wiring",
+    "sector": "Construction",
+    "aliases": [
+      "house wiring",
+      "bijli fitting",
+      "वायरिंग",
+      "बिजली का काम",
+      "wiring"
+    ]
+  },
+  {
+    "skill_id": "SK_PAINTING_COATING",
+    "name": "Wall Painting & Coating",
+    "sector": "Construction",
+    "aliases": [
+      "painting",
+      "putty work",
+      "wall painting",
+      "रंगाई",
+      "रंगकाम"
+    ]
+  },
+  {
+    "skill_id": "SK_TWO_WHEELER_REPAIR",
+    "name": "Two Wheeler Repair",
+    "sector": "Automotive",
+    "aliases": [
+      "bike repair",
+      "two wheeler mechanic",
+      "बाइक रिपेयर",
+      "मोटरसाइकिल मरम्मत"
+    ]
+  },
+  {
+    "skill_id": "SK_AUTO_ELECTRICAL",
+    "name": "Auto Electrical Systems",
+    "sector": "Automotive",
+    "aliases": [
+      "car wiring",
+      "auto electrician",
+      "गाड़ी वायरिंग",
+      "battery charging"
+    ]
+  },
+  {
+    "skill_id": "SK_FOUR_WHEELER_SERVICE",
+    "name": "Four Wheeler Servicing",
+    "sector": "Automotive",
+    "aliases": [
+      "car mechanic",
+      "motor mechanic",
+      "गाड़ी रिपेयर",
+      "diesel mechanic"
+    ]
+  },
+  {
+    "skill_id": "SK_PATIENT_CARE",
+    "name": "Basic Patient Care",
+    "sector": "Healthcare",
+    "aliases": [
+      "patient care",
+      "patient dekhbhal",
+      "मरीज की देखभाल",
+      "nursing care"
+    ]
+  },
+  {
+    "skill_id": "SK_FIRST_AID",
+    "name": "First Aid & CPR",
+    "sector": "Healthcare",
+    "aliases": [
+      "first aid",
+      "prathmik upchar",
+      "प्राथमिक उपचार",
+      "emergency aid"
+    ]
+  },
+  {
+    "skill_id": "SK_ELDERLY_CARE",
+    "name": "Elderly & Geriatric Care",
+    "sector": "Healthcare",
+    "aliases": [
+      "elderly care",
+      "old age care",
+      "बुजुर्गों की सेवा",
+      "home attendant"
+    ]
+  },
+  {
+    "skill_id": "SK_SOLAR_INSTALLATION",
+    "name": "Solar PV Installation",
+    "sector": "Renewable Energy",
+    "aliases": [
+      "solar panel fitting",
+      "solar wiring",
+      "सोलर पैनल लगाना",
+      "solar technician"
+    ]
+  },
+  {
+    "skill_id": "SK_SOLAR_MAINTENANCE",
+    "name": "Solar System Maintenance",
+    "sector": "Renewable Energy",
+    "aliases": [
+      "solar repair",
+      "solar cleaning",
+      "सोलर मरम्मत",
+      "inverter repair"
+    ]
+  },
+  {
+    "skill_id": "SK_MOBILE_REPAIR",
+    "name": "Mobile Phone Repair",
+    "sector": "Electronics",
+    "aliases": [
+      "mobile repair",
+      "phone screen replacement",
+      "मोबाइल रिपेयर",
+      "mobile hardware"
+    ]
+  },
+  {
+    "skill_id": "SK_APPLIANCE_REPAIR",
+    "name": "Home Appliance Repair",
+    "sector": "Electronics",
+    "aliases": [
+      "fridge repair",
+      "washing machine repair",
+      "मिक्सर रिपेयर",
+      "ac servicing"
+    ]
+  },
+  {
+    "skill_id": "SK_CCTV_INSTALLATION",
+    "name": "CCTV Camera Installation",
+    "sector": "Electronics",
+    "aliases": [
+      "cctv fitting",
+      "security camera",
+      "सीसीटीवी लगाना",
+      "camera installation"
+    ]
+  },
+  {
+    "skill_id": "SK_ORGANIC_FARMING",
+    "name": "Organic Farming Practices",
+    "sector": "Agriculture",
+    "aliases": [
+      "jaivik kheti",
+      "organic farming",
+      "जैविक खेती",
+      "composting"
+    ]
+  },
+  {
+    "skill_id": "SK_DAIRY_FARMING",
+    "name": "Dairy Farm Management",
+    "sector": "Agriculture",
+    "aliases": [
+      "dairy farming",
+      "pashupalan",
+      "दुग्ध उत्पादन",
+      "डेयरी फार्मिंग",
+      "cow care"
+    ]
+  },
+  {
+    "skill_id": "SK_DRIP_IRRIGATION",
+    "name": "Micro-Irrigation Setup",
+    "sector": "Agriculture",
+    "aliases": [
+      "drip irrigation",
+      "sprinkler fitting",
+      "ड्रिप सिंचाई",
+      "सिंचाई"
+    ]
+  },
+  {
+    "skill_id": "SK_HAIR_STYLING",
+    "name": "Hair Styling & Cutting",
+    "sector": "Beauty",
+    "aliases": [
+      "hair cutting",
+      "barber work",
+      "बाल काटना",
+      "हेयर स्टाइल"
+    ]
+  },
+  {
+    "skill_id": "SK_SKIN_CARE",
+    "name": "Skin Care & Facials",
+    "sector": "Beauty",
+    "aliases": [
+      "facial",
+      "skin care",
+      "फेशियल",
+      "ब्यूटी पार्लर",
+      "makeup"
+    ]
+  },
+  {
+    "skill_id": "SK_BRIDAL_MAKEUP",
+    "name": "Bridal & Party Makeup",
+    "sector": "Beauty",
+    "aliases": [
+      "bridal makeup",
+      "dulhan makeup",
+      "दुल्हन मेकअप",
+      "cosmetology"
+    ]
+  },
+  {
+    "skill_id": "SK_DATA_ENTRY",
+    "name": "Data Entry Operations",
+    "sector": "IT-ITeS",
+    "aliases": [
+      "data entry",
+      "typing",
+      "कंप्यूटर टाइपिंग",
+      "computer operator"
+    ]
+  },
+  {
+    "skill_id": "SK_DIGITAL_LITERACY",
+    "name": "Basic Computer & Internet",
+    "sector": "IT-ITeS",
+    "aliases": [
+      "basic computer",
+      "internet browsing",
+      "कंप्यूटर ज्ञान",
+      "ms office"
+    ]
+  },
+  {
+    "skill_id": "SK_ACCOUNTING_TALLY",
+    "name": "Computerized Accounting & Tally",
+    "sector": "IT-ITeS",
+    "aliases": [
+      "tally",
+      "gst billing",
+      "अकाउंटिंग",
+      "खता बही"
+    ]
+  },
+  {
+    "skill_id": "SK_RETAIL_SALES",
+    "name": "Retail Sales & Customer Service",
+    "sector": "Retail",
+    "aliases": [
+      "shop sales",
+      "counter sales",
+      "दुकान बिक्री",
+      "customer handling"
+    ]
+  },
+  {
+    "skill_id": "SK_WAREHOUSE_PACKING",
+    "name": "Warehouse Packing & Dispatch",
+    "sector": "Logistics",
+    "aliases": [
+      "packaging",
+      "warehouse helper",
+      "पैकिंग",
+      "गोदाम काम"
+    ]
+  },
+  {
+    "skill_id": "SK_WELDING",
+    "name": "Shielded Metal Arc Welding",
+    "sector": "Capital Goods",
+    "aliases": [
+      "welding",
+      "arc welding",
+      "वेल्डिंग",
+      "लोहे का काम"
+    ]
+  },
+  {
+    "skill_id": "SK_GAS_CUTTING",
+    "name": "Gas Cutting & Brazing",
+    "sector": "Capital Goods",
+    "aliases": [
+      "gas cutting",
+      "brazing",
+      "गैस कटिंग",
+      "metal cutting"
+    ]
+  }
+]
